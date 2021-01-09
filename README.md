@@ -69,5 +69,5 @@ What you will be able to do on this site:
 
 ### Acknowledgements
 - I received inspiration for this project from: 
-    - [https://www.onemap.sg/main/v2/] (https://www.onemap.sg/main/v2/)
-    - [https://www.google.com.sg/maps] (https://www.google.com.sg/maps)
+    - [OneMap] (https://www.onemap.sg/main/v2/)
+    - [Google Maps](https://www.google.com.sg/maps)
