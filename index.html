@@ -17,35 +17,79 @@
   </head>
 
   <body style="background-color:rgba(255, 255, 255, 0.856);">
+
+    <!-- Navigation bar (self-made)-->
     <a id="focus" href="#focus"></a>
     <div class="topnav">
       <a class="active" href="index.html">Home</a>
       <a href="map.html#topnav">Interactive Map</a>
       <a href="credits.html">Credits</a>
     </div>
-    <section class="header-img">
-      <img src="images/header-img.jpg" alt="Header image" style="height:10%; width:100%"/>
-    </section>
-
-    <section class="container" >
-      <div class="split img">
-        </br>
-        </br>
-        <img src="images/about.jpg" alt="About us image" />
+  </br>
+  </br>
+    <!-- Bootstrap carousel taken from: https://www.w3schools.com/bootstrap/bootstrap_carousel.asp -->
+    <div class="container">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+    
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="images/direction-preview.png" alt="Interactive Map directions using geolocation" style="width:100%;">
+            <div class="carousel-caption">
+              <h2 style="color:black">Directions (On Click)</h2>
+              <p style="color:black">Interactive Map directions given using geolocation.</p>
+            </div>
+          </div>
+    
+          <div class="item">
+            <img src="images/location-preview.png" alt="Interactive Map directions using location names" style="width:100%;">
+            <div class="carousel-caption">
+              <h2 style="color:black">Directions (Input-based)</h2>
+              <p style="color:black">Interactive Map directions given using location names</p>
+            </div>
+          </div>
+        
+          <div class="item">
+            <img src="images/user-location.png" alt="Interactive Map user location using browser geolocater" style="width:100%;">
+            <div class="carousel-caption">
+              <h2 style="color:black">User current location (Geolocater)</h2>
+              <p style="color:black">Interactive Map user location using browser geolocater</p>
+            </div>
+          </div>
         </div>
-        <div class="split">
+    
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Website description + function & accompanying image -->
         <h1 style="font-size:5vw;"> A B O U T &nbsp;&nbsp; U S</h1>
-        <h3>
+        <h2>
           This website an interactive map similar to Google Maps. However, this map allows you to retrieve directions through multiple ways!
         </br>
           You may click on the map to select the starting and ending locations or enter the name of the place for more accuracy!
         </br>
           This map also allows you to view the full directions before embarking on your journey!
         </br>
-          Click on the instructions on the left panel to show the exact location!</h3>
+          Click on the instructions on the left panel to show the exact location!</h2>
 
-        <p>Head over to our <a href="map.html#topnav">Interactive Map</a> now!
-        </p>
+        <h2>Head over to our <a href="map.html#topnav">Interactive Map</a> now!</h2>
+
+        <!--Button link to Map Box-->
         <a href="https://www.mapbox.com/" target="_blank" class="button">Click here to view Map Box!</a>
       </div>
     </section>
