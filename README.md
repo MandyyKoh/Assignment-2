@@ -46,7 +46,9 @@ What you will be able to do on this site:
 - *[JavaScript](https://www.javascript.com/)*
     -Javascript was used to create the alert box and the map
 
-
+## Wire Frames
+<img src="wireframe/home.png" alt="Home page wireframe">
+<img src="wireframe/map.png" alt="Home page wireframe"
 ## Testing
 - To be filled in
 
