@@ -18,9 +18,14 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>Interactive Map</title>
+    <script>
+      function alertUser(msg) {
+      alert(msg);
+      }
+    </script>
   </head>
   <!-- Navigation bar (self-made)-->
-  <body style="background-color:rgba(255, 255, 255, 0.856);">
+  <body style="background-color:rgba(255, 255, 255, 0.856);" onload="alertUser('Click anywhere on the map or input in the top left to set location and destination to retrieve directions! Click icon at the top right to find current location!')">
     <a id="focus" href="#focus"></a>
     <div class="topnav">
       <a href="index.html">Home</a>
@@ -65,8 +70,7 @@
     trackUserLocation: true
     })
     );
-    </script>
-    </script>
+    </script>>
      
     </body>
 </html>

@@ -105,10 +105,10 @@
     position: absolute;
     top: 0;
     bottom: 0;
-    width: 50%;
-    height: 50%;
+    width: 80%;
+    height: 80%;
     margin: auto;
-    margin-left: 515px;
+    margin-left: 200px;
   }
 
   body { margin: 0; padding: 0; }
