@@ -48,9 +48,24 @@ What you will be able to do on this site:
 
 ## Wire Frames
 <img src="wireframe/home.png" alt="Home page wireframe">
-<img src="wireframe/map.png" alt="Home page wireframe"
+<img src="wireframe/map.png" alt="Map page wireframe">
+<img src="wireframe/mobile-home.png" alt="Mobile home page wireframe">
+<img src="wireframe/mobile-map.png" alt="Mobile Map page wireframe">
+
 ## Testing
-- To be filled in
+### Page Preview
+- <img src="page-preview/homepg.png" alt="Home page preview">
+- <img src="page-preview/mapalert.png" alt="Javascript alert box">
+- <img src="pagepreview/mappage.png" alt="Map page">
+
+### Task List
+| No.  |     Feature     |  Date Tested |
+|------|:---------------:|-------------:|
+| 1    |  Navigation Bar |    31/12     |
+| 2    |       Map       |    9/01      |
+| 3    |   Map buttons   |    9/01      |
+| 4    |    Alert Box    |    9/01      |
+
 
 ## Credits
 
