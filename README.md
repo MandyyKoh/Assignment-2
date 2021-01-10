@@ -56,7 +56,7 @@ What you will be able to do on this site:
 ### Page Preview
 - <img src="page-preview/homepg.png" alt="Home page preview">
 - <img src="page-preview/mapalert.png" alt="Javascript alert box">
-- <img src="pagepreview/mappage.png" alt="Map page">
+- <img src="page-preview/mappage.png" alt="Map page">
 
 ### Task List
 | No.  |     Feature     |  Date Tested |
