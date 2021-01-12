@@ -2,6 +2,7 @@
 
 This project was created to design, develop and implement a dynamic front-end web application using HTML, CSS, JavaScript, jQuery and implement front-end
 interactivity, using core JavaScript, JavaScript libraries and/or Application Programming Interfaces (APIs)
+Website Link: https://mandyykoh.github.io/Assignment-2/
 
 ## Website
 
